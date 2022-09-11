@@ -1,0 +1,47 @@
+h1 {
+    color: #27aedb;
+    text-align: center;
+    }
+    
+
+button{
+    color: #e3f704;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(80, 39, 230);
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    background-color: black;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 400px;
+    padding:80px 10px 10px 10px;
+}
+input,select,button{
+    margin: 10px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+span{
+    padding-left: 20px;
+    color:red
+}
+label{
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -30px;
+    margin-bottom: 10px;
+}
